@@ -6,32 +6,68 @@ MoveMate is a mobile app designed to help students stay organized during the mov
 ---
 
 ## Features
-- ✔️ Task list with add, edit, delete  
-- ✔️ Inventory list using RecyclerView  
-- ✔️ SQLite local database storage  
-- ✔️ Navigation between multiple screens  
-- ✔️ Basic UI layouts and icons  
-- ✔️ Budget tracking screen (in progress)
+- Task list with add, edit, delete  
+- Inventory list using RecyclerView  
+- SQLite local database storage  
+- Navigation between multiple screens  
+- Basic UI layouts and icons  
+- Budget tracking screen (in progress)
 
 ---
 
 ## Project Structure
 
-app/
-├── java/
-│ └── com.movemate/
-│ ├── HomeActivity.java
-│ ├── TaskActivity.java
-│ ├── InventoryActivity.java
-│ ├── BudgetActivity.java
-│ ├── DatabaseHelper.java
-│ └── models/
-│ ├── Task.java
-│ └── InventoryItem.java
-├── res/
-│ ├── layout/
-│ ├── drawable/
-│ └── values/
+MoveMate/
+│
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/movemate/
+│   │   │   │       ├── activities/
+│   │   │   │       │   ├── HomeActivity.java
+│   │   │   │       │   ├── TaskActivity.java
+│   │   │   │       │   ├── InventoryActivity.java
+│   │   │   │       │   └── BudgetActivity.java
+│   │   │   │       │
+│   │   │   │       ├── database/
+│   │   │   │       │   └── DatabaseHelper.java
+│   │   │   │       │
+│   │   │   │       ├── models/
+│   │   │   │       │   ├── Task.java
+│   │   │   │       │   ├── InventoryItem.java
+│   │   │   │       │   └── Expense.java
+│   │   │   │       │
+│   │   │   │       └── adapters/
+│   │   │   │           ├── TaskAdapter.java
+│   │   │   │           └── InventoryAdapter.java
+│   │   │   │
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_home.xml
+│   │   │   │   │   ├── activity_tasks.xml
+│   │   │   │   │   ├── activity_inventory.xml
+│   │   │   │   │   ├── activity_budget.xml
+│   │   │   │   │   ├── item_task.xml
+│   │   │   │   │   └── item_inventory.xml
+│   │   │   │   │
+│   │   │   │   ├── drawable/
+│   │   │   │   ├── mipmap/
+│   │   │   │   └── values/
+│   │   │   │       ├── colors.xml
+│   │   │   │       ├── strings.xml
+│   │   │   │       └── styles.xml
+│   │   │   │
+│   │   │   └── AndroidManifest.xml
+│   │   │
+│   │   └── test/
+│   │
+│   └── build.gradle
+│
+├── gradle/
+├── settings.gradle
+└── README.md
+
 
 
 ---
