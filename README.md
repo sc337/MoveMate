@@ -91,3 +91,5 @@ See Version Log in `/docs/version_log.md`
 ## Developer  
 Shawn Caesar  
 Saint Leo University — Android App Development  
+
+Week 4 Update — Added inventory RecyclerView, connected SQLite for inventory, improved Task UI, added BudgetActivity structure, updated README and navigation flow. Version 1.2 changes logged.
