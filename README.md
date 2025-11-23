@@ -5,7 +5,7 @@ MoveMate is a mobile app designed to help students stay organized during the mov
 
 ---
 
-## 📱 Features
+## Features
 - ✔️ Task list with add, edit, delete  
 - ✔️ Inventory list using RecyclerView  
 - ✔️ SQLite local database storage  
@@ -15,7 +15,7 @@ MoveMate is a mobile app designed to help students stay organized during the mov
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 app/
 ├── java/
