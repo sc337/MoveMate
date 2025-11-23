@@ -18,57 +18,34 @@ MoveMate is a mobile app designed to help students stay organized during the mov
 ## Project Structure
 
 MoveMate/
+├── activities/
+│ ├── HomeActivity.java
+│ ├── TaskActivity.java
+│ ├── InventoryActivity.java
+│ └── BudgetActivity.java
 │
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── com/movemate/
-│   │   │   │       ├── activities/
-│   │   │   │       │   ├── HomeActivity.java
-│   │   │   │       │   ├── TaskActivity.java
-│   │   │   │       │   ├── InventoryActivity.java
-│   │   │   │       │   └── BudgetActivity.java
-│   │   │   │       │
-│   │   │   │       ├── database/
-│   │   │   │       │   └── DatabaseHelper.java
-│   │   │   │       │
-│   │   │   │       ├── models/
-│   │   │   │       │   ├── Task.java
-│   │   │   │       │   ├── InventoryItem.java
-│   │   │   │       │   └── Expense.java
-│   │   │   │       │
-│   │   │   │       └── adapters/
-│   │   │   │           ├── TaskAdapter.java
-│   │   │   │           └── InventoryAdapter.java
-│   │   │   │
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_home.xml
-│   │   │   │   │   ├── activity_tasks.xml
-│   │   │   │   │   ├── activity_inventory.xml
-│   │   │   │   │   ├── activity_budget.xml
-│   │   │   │   │   ├── item_task.xml
-│   │   │   │   │   └── item_inventory.xml
-│   │   │   │   │
-│   │   │   │   ├── drawable/
-│   │   │   │   ├── mipmap/
-│   │   │   │   └── values/
-│   │   │   │       ├── colors.xml
-│   │   │   │       ├── strings.xml
-│   │   │   │       └── styles.xml
-│   │   │   │
-│   │   │   └── AndroidManifest.xml
-│   │   │
-│   │   └── test/
-│   │
-│   └── build.gradle
+├── database/
+│ └── DatabaseHelper.java
 │
-├── gradle/
-├── settings.gradle
+├── models/
+│ ├── Task.java
+│ ├── InventoryItem.java
+│ └── Expense.java
+│
+├── adapters/
+│ ├── TaskAdapter.java
+│ └── InventoryAdapter.java
+│
+├── layout/
+│ ├── activity_home.xml
+│ ├── activity_tasks.xml
+│ ├── activity_inventory.xml
+│ ├── activity_budget.xml
+│ ├── item_task.xml
+│ └── item_inventory.xml
+│
+├── AndroidManifest.xml
 └── README.md
-
-
 
 ---
 
